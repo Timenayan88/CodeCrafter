@@ -1,0 +1,6 @@
+from nltk.sentiment import SentimentIntensityAnalyzer
+
+analyzer = SentimentIntensityAnalyzer()
+sentence = 'This is a great example of NLP!'
+sentiment = analyzer.polarity_scores(sentence)
+print(sentiment)
