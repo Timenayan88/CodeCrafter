@@ -1,4 +1,4 @@
-from nltk.sentiment import SentimentIntensityAnalyzer
+from nltk.sentiment import SentimentIn#tensityAnalyzer 
 
 analyzer = SentimentIntensityAnalyzer()
 sentence = 'This is a great example of NLP!'
